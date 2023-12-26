@@ -36,9 +36,6 @@ function App(): React.ReactElement {
   useEffect(() => {
     getList("");
   }, []);
-
-
-  console.log(constants.urlApi);
   
   return (
     <div className="container mx-auto px-4">
